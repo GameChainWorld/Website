@@ -530,19 +530,58 @@
         display: flex;
         justify-content: center;
     }
+    #team .big-team-container .big-team-item{
+        width: 10%;
+        margin: 3rem 0;
+    }
+    #team .big-team-container .big-team-item p{
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+    #team .big-team-container .big-team-item p:first-child{
+        color: #fff;
+        font-size: 1.6rem;
+    }
+    #team .big-team-container .big-team-item .team-item-img-linkedin{
+        margin: auto;
+        width: 2rem;
+        height: 2rem;
+        background-color: #034EA2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: #fff;
+    }
     @media only screen and (max-width: 1200px){
         #team .team-item-content{
             width: 33.3%;
+        }
+        #team .big-team-container .big-team-item{
+            width: 12.5%;
+            margin: 3rem 0;
         }
     }
     @media only screen and (max-width: 992px){
         #team .team-item-content{
             width: 50%;
         }
+        #team .big-team-container .big-team-item{
+            width: 20%;
+            margin: 3rem 0;
+        }
     }
     @media only screen and (max-width: 598px){
         #team .team-item-content{
             width: 100%;
+        }
+        #team .big-team-container .big-team-item{
+            width: 33.3%;
+            margin: 3rem 0;
         }
     }
     #team .team-item{
@@ -617,9 +656,9 @@
 
     #team .investment-institution{
         display: flex; 
-        justify-content: space-between;
+        justify-content: space-around;
         min-height: 100px;
-        margin: 0 20px 20px;
+        margin: 0 20px 80px;
     }
     #team .investment-institution .institution-item{
         width: 19%;
@@ -1269,9 +1308,9 @@
     }
     #contact .container .logo{
         flex: 25%; 
-        height: 50px; 
-        line-height: 50px; 
-        margin: 6vw 0 auto;
+        /*height: 50px; 
+        line-height: 50px; */
+        margin: 3vw 0 auto;
     }
     #contact .container .logo img {
         width: 15vw;

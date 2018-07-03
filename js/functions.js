@@ -213,6 +213,19 @@ $(document).ready(function() {
         }
     })
 
+    //添加上普通成员
+    for(var i in bigTeam){
+        var currName =  localStorage.getItem("language")=="cn" ? bigTeam[i].cnName : bigTeam[i].enName;
+        var currWork =  localStorage.getItem("language")=="cn" ? bigTeam[i].cnwork : bigTeam[i].enwork;
+        $("#bigTeam").append(
+            '<div class="big-team-item">' +   
+                '<p class="name" id="team_name_item201">' + currName + '</p>' + 
+                '<p class="name" id="team_work_item201">' + currWork + '</p>' +  
+                '<a class="team-item-img-linkedin" href="' + bigTeam[i].linkedin + '"><i class="fa fa-linkedin"></i></a>' + 
+            '</div>'
+        )
+    }
+    
     //翻译的内容
     //  var translation = function(){
     function translation(){
@@ -334,47 +347,15 @@ $(document).ready(function() {
             $("#team-creative-title").html(cn.team_title1);
             $("#team-consultant-title").html(cn.team_title2);
             $("#team-investment-title").html(cn.team_title3);
+            $("#team-cooperate-title").html(cn.team_title4);
+            $("#team-members-title").html(cn.team_title5);
             
-            $("#team_name_item0").html(cn.team_name_item0);
-            $("#team_text_item0").html(cn.team_text_item0);
-
-            $("#team_name_item1").html(cn.team_name_item1);
-            $("#team_text_item1").html(cn.team_text_item1);
-            $("#team_name_item2").html(cn.team_name_item2);
-            $("#team_text_item2").html(cn.team_text_item2);
-            $("#team_name_item3").html(cn.team_name_item3);
-            $("#team_text_item3").html(cn.team_text_item3);
-            $("#team_name_item4").html(cn.team_name_item4);
-            $("#team_text_item4").html(cn.team_text_item4);
-
-            $("#team_name_item5").html(cn.team_name_item5);
-            $("#team_text_item5").html(cn.team_text_item5);
-            $("#team_name_item6").html(cn.team_name_item6);
-            $("#team_text_item6").html(cn.team_text_item6);
-            $("#team_name_item7").html(cn.team_name_item7);
-            $("#team_text_item7").html(cn.team_text_item7);
-            $("#team_name_item8").html(cn.team_name_item8);
-            $("#team_text_item8").html(cn.team_text_item8);
-
-            $("#team_name_item9").html(cn.team_name_item9);
-            $("#team_text_item9").html(cn.team_text_item9);
-            $("#team_name_item10").html(cn.team_name_item10);
-            $("#team_text_item10").html(cn.team_text_item10);
-            $("#team_name_item11").html(cn.team_name_item11);
-            $("#team_text_item11").html(cn.team_text_item11);
-            $("#team_name_item12").html(cn.team_name_item12);
-            $("#team_text_item12").html(cn.team_text_item12);
-
-            $("#team_name_item13").html(cn.team_name_item13);
-            $("#team_text_item13").html(cn.team_text_item13);
-            $("#team_work_item13").html(cn.team_work_item13);
-            $("#team_name_item14").html(cn.team_name_item14);
-            $("#team_text_item14").html(cn.team_text_item14);
-            $("#team_work_item14").html(cn.team_work_item14);
-            $("#team_work_item0").html(cn.team_work_item0);
-            $("#team_work_item3").html(cn.team_work_item3);
-            $("#team_work_item6").html(cn.team_work_item6);
-
+            var teamArr = ["01", "02", "03", "04", "05", "11", "12", "13", "14"]
+            for(var i in teamArr){
+                $("#team_name_item" + teamArr[i]).html(eval("cn.team_name_item" + teamArr[i]));
+                $("#team_work_item" + teamArr[i]).html(eval("cn.team_work_item" + teamArr[i]));
+                $("#team_text_item" + teamArr[i]).html(eval("cn.team_text_item" + teamArr[i]));
+            }
 
             $("#team_support_item1").html(cn.team_support_item1);
             $("#team_support_item2").html(cn.team_support_item2);
@@ -520,46 +501,15 @@ $(document).ready(function() {
             $("#team-creative-title").html(en.team_title1.toUpperCase());
             $("#team-consultant-title").html(en.team_title2.toUpperCase());
             $("#team-investment-title").html(en.team_title3.toUpperCase());
+            $("#team-cooperate-title").html(en.team_title4.toUpperCase());
+            $("#team-members-title").html(en.team_title5.toUpperCase());
             
-            $("#team_name_item0").html(en.team_name_item0);
-            $("#team_text_item0").html(en.team_text_item0);
-
-            $("#team_name_item1").html(en.team_name_item1);
-            $("#team_text_item1").html(en.team_text_item1);
-            $("#team_name_item2").html(en.team_name_item2);
-            $("#team_text_item2").html(en.team_text_item2);
-            $("#team_name_item3").html(en.team_name_item3);
-            $("#team_text_item3").html(en.team_text_item3);
-            $("#team_name_item4").html(en.team_name_item4);
-            $("#team_text_item4").html(en.team_text_item4);
-
-            $("#team_name_item5").html(en.team_name_item5);
-            $("#team_text_item5").html(en.team_text_item5);
-            $("#team_name_item6").html(en.team_name_item6);
-            $("#team_text_item6").html(en.team_text_item6);
-            $("#team_name_item7").html(en.team_name_item7);
-            $("#team_text_item7").html(en.team_text_item7);
-            $("#team_name_item8").html(en.team_name_item8);
-            $("#team_text_item8").html(en.team_text_item8);
-
-            $("#team_name_item9").html(en.team_name_item9);
-            $("#team_text_item9").html(en.team_text_item9);
-            $("#team_name_item10").html(en.team_name_item10);
-            $("#team_text_item10").html(en.team_text_item10);
-            $("#team_name_item11").html(en.team_name_item11);
-            $("#team_text_item11").html(en.team_text_item11);
-            $("#team_name_item12").html(en.team_name_item12);
-            $("#team_text_item12").html(en.team_text_item12);
-
-            $("#team_name_item13").html(en.team_name_item13);
-            $("#team_text_item13").html(en.team_text_item13);
-            $("#team_work_item13").html(en.team_work_item13);
-            $("#team_name_item14").html(en.team_name_item14);
-            $("#team_text_item14").html(en.team_text_item14);
-            $("#team_work_item14").html(en.team_work_item14);
-            $("#team_work_item0").html(en.team_work_item0);
-            $("#team_work_item3").html(en.team_work_item3);
-            $("#team_work_item6").html(en.team_work_item6);
+            var teamArr = ["01", "02", "03", "04", "05", "11", "12", "13", "14"]
+            for(var i in teamArr){
+                $("#team_name_item" + teamArr[i]).html(eval("en.team_name_item" + teamArr[i]));
+                $("#team_work_item" + teamArr[i]).html(eval("en.team_work_item" + teamArr[i]));
+                $("#team_text_item" + teamArr[i]).html(eval("en.team_text_item" + teamArr[i]));
+            }
 
             $("#team_support_item1").html(en.team_support_item1);
             $("#team_support_item2").html(en.team_support_item2);
@@ -705,46 +655,15 @@ $(document).ready(function() {
             $("#team-creative-title").html(en.team_title1.toUpperCase());
             $("#team-consultant-title").html(en.team_title2.toUpperCase());
             $("#team-investment-title").html(en.team_title3.toUpperCase());
+            $("#team-cooperate-title").html(en.team_title4.toUpperCase());
+            $("#team-members-title").html(en.team_title5.toUpperCase());
             
-            $("#team_name_item0").html(en.team_name_item0);
-            $("#team_text_item0").html(en.team_text_item0);
-
-            $("#team_name_item1").html(en.team_name_item1);
-            $("#team_text_item1").html(en.team_text_item1);
-            $("#team_name_item2").html(en.team_name_item2);
-            $("#team_text_item2").html(en.team_text_item2);
-            $("#team_name_item3").html(en.team_name_item3);
-            $("#team_text_item3").html(en.team_text_item3);
-            $("#team_name_item4").html(en.team_name_item4);
-            $("#team_text_item4").html(en.team_text_item4);
-
-            $("#team_name_item5").html(en.team_name_item5);
-            $("#team_text_item5").html(en.team_text_item5);
-            $("#team_name_item6").html(en.team_name_item6);
-            $("#team_text_item6").html(en.team_text_item6);
-            $("#team_name_item7").html(en.team_name_item7);
-            $("#team_text_item7").html(en.team_text_item7);
-            $("#team_name_item8").html(en.team_name_item8);
-            $("#team_text_item8").html(en.team_text_item8);
-
-            $("#team_name_item9").html(en.team_name_item9);
-            $("#team_text_item9").html(en.team_text_item9);
-            $("#team_name_item10").html(en.team_name_item10);
-            $("#team_text_item10").html(en.team_text_item10);
-            $("#team_name_item11").html(en.team_name_item11);
-            $("#team_text_item11").html(en.team_text_item11);
-            $("#team_name_item12").html(en.team_name_item12);
-            $("#team_text_item12").html(en.team_text_item12);
-
-            $("#team_name_item13").html(en.team_name_item13);
-            $("#team_text_item13").html(en.team_text_item13);
-            $("#team_work_item13").html(en.team_work_item13);
-            $("#team_name_item14").html(en.team_name_item14);
-            $("#team_text_item14").html(en.team_text_item14);
-            $("#team_work_item14").html(en.team_work_item14);
-            $("#team_work_item0").html(en.team_work_item0);
-            $("#team_work_item3").html(en.team_work_item3);
-            $("#team_work_item6").html(en.team_work_item6);
+            var teamArr = ["01", "02", "03", "04", "05", "11", "12", "13", "14"]
+            for(var i in teamArr){
+                $("#team_name_item" + teamArr[i]).html(eval("en.team_name_item" + teamArr[i]));
+                $("#team_work_item" + teamArr[i]).html(eval("en.team_work_item" + teamArr[i]));
+                $("#team_text_item" + teamArr[i]).html(eval("en.team_text_item" + teamArr[i]));
+            }
 
             $("#team_support_item1").html(en.team_support_item1);
             $("#team_support_item2").html(en.team_support_item2);

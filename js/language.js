@@ -113,46 +113,50 @@ var cn = {
     team_title_intro: '介绍',
     team_title1: '主创团队',
     team_title2: '顾问团队',
-    team_title3: '合作伙伴',
+    team_title3: '投资人',
+    team_title4: '合作伙伴',
+    team_title5: '团队成员',
 
-    team_name_item1: 'Ali Dagli',
-    team_text_item1: '加利福利亚伯克利分校金融学博士，数字媒体领域资深投资人和金融战略顾问。在GCA Savvian副总裁，运作了日本社交巨头Gree 2.1亿美金收购Funzio、Saban Brands收购The Playforge等著名案例。自2013年起对区块链金融深入研究和实践。',
-    team_name_item2: 'Thomas Lindgren',
-    team_text_item2: 'Western University MBA。游戏行业资深人士，曾任瑞典游戏公司Stardoll担任CEO，Fatshark AB 制作人。',
-    team_name_item3: 'Oliver Wu',
-    team_text_item3: '宾夕法尼亚大学计算机博士，著名经典文字MUD《Three Kindgoms》巫师，《Warhammer: end times》MMO制作人。曾担任新加坡互动媒体中心负责人 ，负责青奥会虚拟现实世界的开发和运营。担任中青宝前海外总裁。',
-    team_name_item4: 'Abdullah Konash',
-    team_text_item4: '美国哈佛大学音乐艺术理论研究员。沙特阿拉伯游戏设计和开发领域的先驱，在游戏领域有九年的工作经验，并且渴望领导沙特阿拉伯游戏行业的发展。曾任Hako Games，Ranam制作人。',
+    team_name_item01: 'Oliver Wu',
+    team_work_item01: 'CEO',
+    team_text_item01: '宾夕法尼亚大学计算机博士，著名经典文字MUD《Three Kindgoms》巫师，《Warhammer: end times》MMO制作人。曾担任新加坡互动媒体中心负责人 ，负责青奥会虚拟现实世界的开发和运营。担任中青宝前海外总裁。',
+  
+    team_name_item02: '董浩',
+    team_work_item02: '联合创始人  CTO',
+    team_text_item02: '上海交通大学软件硕士，完美世界(002624)研究中心工程师，VR黄埔军校著称的中视典原CTO，C²engine创始人。15年游戏行业经验，多款盈利商业大作。自2014年即着手研究区块链在游戏行业的应用。',
     
-    team_name_item0: '董浩',
-    team_text_item0: '上海交通大学软件硕士，完美世界研究中心工程师，VR黄埔军校著称的中视典原CTO，C²engine创始人。15年游戏行业经验，多款盈利商业大作。自2014年即着手研究区块链在游戏行业的应用。',
-    
-    team_name_item5: '冯涛',
-    team_text_item5: '联创永宣董事长。新浪等众多著名商业传奇缔造者，与沈南鹏等入选福布斯中国2017最佳创投人前三甲。区块链领域早期即支持了INB、OK 、 NEO 、 BigONE、Beechat等项目。',
-    team_name_item6: 'Frank Liu',
-    team_text_item6: '新加坡南洋理工大学博士后研究员，拥有多项专利知识产权，数学功底深厚。对三维图形学、密码学、点对点通讯、区块链共识机制、深度学习有深入研究。',
-    team_name_item7: '易理华',
-    team_text_item7: '优领资本创始合伙人，INBlockchain（硬币资本）创始合伙人。曾投资量子链、唯链、雷盈、BigONE等30余个区块链项目，涵盖量化基金、区块链母基金、代码审计、交易所等领域。',
-    team_name_item8: '谭群钊',
-    team_text_item8: '华东理工大学，北京大学EMBA。丰厚资本创始人，盛大联合创始人，曾任盛大游戏董事长兼首席执行官，为盛大游戏、中国游戏产业的发展做出了巨大贡献。',
-    team_name_item9: '李翀',
-    team_text_item9: '天使投资人，点亮资本发起人，PPTV联合创始人。专注于移动互联网、区块链等领域，涌现出布比区块链、三迪建科、波奇、P2联合办公等一大批优秀项目。',
-    team_name_item10: '刘嘉陵（巨蟹）',
-    team_text_item10: '国内早期区块链项目布道者和投资者，比特创业营创始成员，比特股和以太坊项目早期参与者，比特股理事会理事、YOYOW团队成员、ATMatrix智能矩阵天使投资人。',
-    team_name_item11: '金鹏',
-    team_text_item11: '复旦大学哲学博士，师从中共中央政治局常委王沪宁教授。前盛大网络高级副总裁，上海联创管理合伙人，无穹创投创始人，在游戏、娱乐、数字金融及营销领域投资了大量新兴企业。',
-    team_name_item12: 'Lee Hills',
-    team_text_item12: '电子游戏业务的企业家和资深顾问，擅长新兴行业，专注于区块链和金融科技领域。曾是SolutionsHub Limited创始人，Oliver Charles Sports Management联合创始人。',
+    team_name_item03: 'Frank Liu',
+    team_work_item03: '系统架构师',
+    team_text_item03: '新加坡南洋理工大学博士后研究员，拥有多项专利知识产权，数学功底深厚。对三维图形学、密码学、点对点通讯、区块链共识机制、深度学习有深入研究。',
 
-    team_name_item13: '毛杰',
-    team_text_item13: '原上海钢联副总及董事，从创业到上市一路打拼。上海钢联电子商务股份有限公司（股票代码：300226）是集钢铁资讯、电子商务、网络技术服务为一体的全国性大型综合IT服务企业，提供专业的钢铁资讯交互平台、一站式钢铁电子商务服务。',
-    team_name_item14: '辛晓琦',
-    team_text_item14: '拥有11年的游戏行业经验，曾经参与过多款大型网络游戏的制作，其中包括《星球大战：旧共和国》。有多年高负荷游戏项目开发的管理经验和运营经验。于2017年加入GAME.FUND，负责社区运营和产品增长等业务。',
-    team_work_item3: '创始人 CEO',
-    team_work_item0: '联合创始人  CTO',
-    team_work_item13: '联合创始人  COO',
-    team_work_item6: '系统架构师',
-    team_work_item14: '运营总监',
+    team_name_item04: '毛杰',
+    team_work_item04: '联合创始人  COO',
+    team_text_item04: '原上海钢联副总及董事，从创业到上市一路打拼。上海钢联电子商务股份有限公司（股票代码：300226）是集钢铁资讯、电子商务、网络技术服务为一体的全国性大型综合IT服务企业，提供专业的钢铁资讯交互平台、一站式钢铁电子商务服务。',
+    
+    team_name_item05: '辛晓琦',
+    team_work_item05: '运营总监',
+    team_text_item05: '拥有11年的游戏行业经验，曾经参与过多款大型网络游戏的制作，其中包括《星球大战：旧共和国》。有多年高负荷游戏项目开发的管理经验和运营经验。',
+            
+
+    team_name_item11: 'Behrang Khorsandian',
+    team_work_item11: 'Ten8 Capital＆Ten8 Services联合创始人，咨询主管',
+    team_text_item11: '• IBM社交分析实践和IBM高级分析能力中心的前欧洲领导者<br/>' +
+                      '• 为Google，戴姆勒，百事可乐和微软等品牌提供8年以上C级咨询<br/>' +
+                      '• 通过发现加密技术，在2014/2015年的熊市中生存下来。',
+
+    team_name_item12: 'Jeff Ward',
+    team_work_item12: 'Ten8 Capital联合创始人，技术主管',
+    team_text_item12: '• FOX Networks Group和Universal Music Group的前软件工程师和应用程序开发人员<br/>' +
+                      '• 智能合约专家<br/>' +
+                      '• 日常交易员和ICO专家。',
+
+    team_name_item13: '李翀',
+    team_work_item13: '',
+    team_text_item13: '天使投资人，点亮资本发起人，PPTV联合创始人。专注于移动互联网、区块链等领域，涌现出布比区块链、三迪建科、波奇、P2联合办公等一大批优秀项目。',
+
+    team_name_item14: '李万才',
+    team_work_item14: 'EOS引力区 联合创始人',
+    team_text_item14: '有10年以上科研院所的技术开发经验及数十篇论文专利，数据加密，网络安全及物联网领域专家。早期某知名芯片矿机核心成员，4年数字货币从业经验。水滴资本联合创始人，理事。方程式资本联合创始人，EOS引力区联合创始人。主要致力于区块链项目孵化，投资和技术开发。',
 
     //#community
     community_title1: '社区',
@@ -301,46 +305,51 @@ var en = {
     team_title_intro: '&nbspINTRODUCTION',
     team_title1: 'The Main Team',
     team_title2: 'Consultant Team',
-    team_title3: 'Cooperative Partner',
+    team_title3: 'Investor',
+    team_title4: 'Cooperative Partner',
+    team_title5: 'Team Members',
 
-    team_name_item1: 'Ali Dagli',
-    team_text_item1: 'Ph.D. in Finance, Berkeley, California, Senior investor and financial strategist in the Digital Media area. Vice President of GCA Savvian, he operate the Japanese social giant Gree, and he has use 2.1 billion acquisition Funzio, Saban Brands acquisition The Playforge and other famous case. Since 2013, he conducted in-depth studies and practices on blockchain finance.',
-    team_name_item2: 'Thomas Lindgren',
-    team_text_item2: 'Western University MBA. senior personage on game industry, he used to be CEO of the Swedish game company Stardoll, the productor of Fatshark AB.',
-    team_name_item3: 'Oliver Wu',
-    team_text_item3: 'Ph.D., University of Pennsylvania, the productor of famous classic text MUD “Three Kindgoms wizard”, MMO game "Warhammer: end times ". he used to be responsible person in Singapore Interactive Media Center, responsible for the development and operation of the virtual reality world of the Youth Olympic  Games. As a former overseas president of Zhongqingbao.',
-    team_name_item4: 'Abdullah Konash',
-    team_text_item4: 'Harvard University, music art theory researcher. He has 9 years experience in the game industry, and  longs to lead the development of the Saudi Arabia’s game industry. He was the producer of Hako Games, Ranam.',
+    team_name_item01: 'Oliver Wu',
+    team_work_item01: 'CEO',
+    team_text_item01: 'Ph.D., University of Pennsylvania, the productor of famous classic text MUD “Three Kindgoms wizard”, MMO game "Warhammer: end times ". he used to be responsible person in Singapore Interactive Media Center, responsible for the development and operation of the virtual reality world of the Youth Olympic  Games. As a former overseas president of Zhongqingbao.',
+
+    team_name_item02: 'Dong Hao',
+    team_work_item02: 'Co-founder  CTO',
+    team_text_item02: 'Master of software of Shanghai Jiao tong University, engineer of Perfect World(002624) research center, the former CTO of VRSTANDARD which be called VR Huangpu Military Academy, the founder of C²engine. He has 15 years of experience in the game industry, producing a number of profitable commercial masterpiece Division. From 2014, he started to study the application of blockchain in the game industry.',
     
-    team_name_item0: 'Dong Hao',
-    team_text_item0: 'Master of software of Shanghai Jiao tong University, engineer of Perfect World research center, the former CTO of VRSTANDARD which be called VR Huangpu Military Academy, the founder of C²engine. He has 15 years of experience in the game industry, producing a number of profitable commercial masterpiece Division. From 2014, he started to study the application of blockchain in the game industry.',
+    team_name_item03: 'Mao Jie',
+    team_work_item03: 'Co-founder  COO',
+    team_text_item03: 'Original vice president and chairman of Shanghai Ganglian E-commerce Co.,Ltd, strive for the best from company foundation to company listing.Shanghai Ganglian E-commerce Co.,Ltd (share code: 300226) is a national large scale comprehensive IT service enterprise that combines steel news, E-commerce, and network technological service. It provides professional steel news interactive platform, one-stop steel e-commerce service.',
     
-    team_name_item5: 'Feng Tao',
-    team_text_item5: 'The chairman of New Margin. The creator of Sina and many other famous business legend, he was selected  to Forbes China 2017 best venture capital Top three with Shen Nanpeng and others. In the early period of Blockchain field he had supported INB, OK, NEO, BigONE, Beechat and other projects.',
-    team_name_item6: 'Frank Liu',
-    team_text_item6: 'The postdoctoral researcher of Singapore Nanyang Technological University, he has a number of patents Intellectual property and very deep mathematics foundation. He also has deep research on 3D graphics, crytography, peer-to-peer communications, blockchain consensus mechanism.',
-    team_name_item7: 'Yi Lihua',
-    team_text_item7: 'Founding Partner of Youling Capital and INBlockchain (Coin Capital). Had invested in quantum chain, VeChain, RadarWin, BigONE more than 30 blockchain projects, covering quantitative funds, blockchain matrix Gold, code audit, exchange and other fields.',
-    team_name_item8: 'Tan Qunzhao',
-    team_text_item8: 'The EMBA of East China University of Science and Technology, Peking University. The founder of Fenghou investment management company and co-founder of Shanda, he used to be the chairman and chief executive official of Shanda, made a huge contribution for the Shanda game and the Chinese game industry.',
-    team_name_item9: 'Li Chong',
-    team_text_item9: 'Angel Investor, the sponsor of DL Capital, Co-Founder of PPTV. Focus on the mobile Internet, blockchain and other fields, emerge Bubi blockchain, SandiJianke, Boqi, P2 joint office and a large number of outstanding project.',
-    team_name_item10: 'Liu Jialing（Cancer）',
-    team_text_item10: 'Evangelist and investor in early national blockchain project, founding members of Bit participants and  early participants of Ethereum Project, member of Bitshares council, member of YOYOW team、the investor of ATMatrix Smart matrix.',
-    team_name_item11: 'Jin Peng',
-    team_text_item11: 'Ph.D. of Fudan University, his mentor is Political Bureau of the CPC Central Committee Standing Committee Professor Wang Huning. Former Senior Vice President of Shanda Network, the partner of Shanghai Lianchuang Management company, Founder of Wuqiongchuangtou, he invested in a large number of emerging industries in games, entertainment, digital Finance and marketing.',   
-    team_name_item12: 'Lee Hills',
-    team_text_item12: 'The entrepreneurs and senior adviser of the computer game, he is good at emerging industry, focus on the field of blockchain and financial technology. He is the founder of SolutionsHub Limited and the co-dounder of Oliver Charles Sports Management.',
+    team_name_item04: 'Frank Liu',
+    team_work_item04: 'System Architect',
+    team_text_item04: 'The postdoctoral researcher of Singapore Nanyang Technological University, he has a number of patents Intellectual property and very deep mathematics foundation. He also has deep research on 3D graphics, crytography, peer-to-peer communications, blockchain consensus mechanism.',
     
-    team_name_item13: 'Jie Mao',
-    team_text_item13: 'Original vice president and chairman of Shanghai Ganglian E-commerce Co.,Ltd, strive for the best from company foundation to company listing.Shanghai Ganglian E-commerce Co.,Ltd (share code: 300226) is a national large scale comprehensive IT service enterprise that combines steel news, E-commerce, and network technological service. It provides professional steel news interactive platform, one-stop steel e-commerce service.',
-    team_name_item14: 'Xiaoqi Xin',
-    team_text_item14: 'I have eleven years\' work experience in game industry. I once participated in production of many large scale network games including "Star Wars : The Old Republic". With many years\' management experience and operation experience in high load project development, I joined Game.Fund in 2017, and I am responsible for community operation and user quantity growth now.',
-    team_work_item3: 'Founder CEO',
-    team_work_item0: 'Co-founder  CTO',
-    team_work_item13: 'Co-founder  COO',
-    team_work_item6: 'System Architect',
-    team_work_item14: 'Operations Director',
+    team_name_item05: 'Xin Xiaoqi',
+    team_work_item05: 'Operations Director',
+    team_text_item05: 'With eleven years\' work experience in game industry, he once participated in production of many large scale network games including "Star Wars: The Old Republic". He also had many years\' management experience and operation experience in project development.',
+    
+
+    team_name_item11: 'Behrang Khorsandian',
+    team_work_item11: 'Co-Founder of Ten8 Capital & Ten8 Services, Head of Consulting',
+    team_text_item11: '• Former European Leader of IBM‘s Social Analytics practice & part of IBM’s Advanced Analytics Center of Competence<br/>' +
+                      '• 8+ years of C-level consulting for brands like Google, Daimler, Pepsi & Microsoft<br/>' +
+                      '• Survived the 2014/2015 bear market by discovering crypto in 2016.',
+
+    team_name_item12: 'Jeff Ward',
+    team_work_item12: 'Co-Founder of Ten8 Capital, Head of Technology',
+    team_text_item12: '• Former Software Engineer & Application Developer for FOX Networks Group & Universal Music Group<br/>' +
+                      '• Smart contract specialist<br/>' +
+                      '• Daily trader & ICO specialist.',
+
+    team_name_item13: 'Li Chong',
+    team_work_item13: '',
+    team_text_item13: 'Angel Investor, the sponsor of DL Capital, Co-Founder of PPTV. Focus on the mobile Internet, blockchain and other fields, emerge Bubi blockchain, SandiJianke, Boqi, P2 joint office and a large number of outstanding project.',
+
+    team_name_item14: 'Li Wancai',
+    team_work_item14: 'Co-Founder of EOS Gravity',
+    team_text_item14: 'He has more than 10 years\'experience in technology R&D in scientific research institutions , and dozens of patents.He is an expert of  data encryption, network security and Internet of Things. A core member of  a well-known microchip mining machine company in the early period ; 4 years of digital currency industry experience. Co-founder and  director of Waterdrip Capital ; Co-Founder of Formula Capital; Co-founder of EOS Gravity ;Mainly devoted to Blockchain project incubation, investment and technology development.',
+
   
     //#community
     community_title1: 'COMMUNITY',//Community Ecology
@@ -372,3 +381,216 @@ var en = {
     broadcast_group: 'Broadcast Group',
     chat_group: 'Chat Group',
 }
+
+var bigTeam = [
+    {
+        cnName: '郑旭文',
+        enName: 'Zheng Xuwen',
+        cnwork: '区块链开发总监',
+        enwork: 'Blockchain Development Director',
+        linkedin: 'https://www.linkedin.com/in/xuwen-zheng-522900166/'
+    },
+    {
+        cnName: '施凯凯',
+        enName: 'Shi Kaikai',
+        cnwork: '产品总监',
+        enwork: 'product officer',
+        linkedin: 'https://www.linkedin.com/in/kaikai-shi-422b72157'
+    },
+    {
+        cnName: '温洲',
+        enName: 'Wen Zhou',
+        cnwork: 'Growth',
+        enwork: 'Growth',
+        linkedin: 'https://www.linkedin.com/in/zhou-wen'
+    },
+    {
+        cnName: '刘莹',
+        enName: 'Liu Ying',
+        cnwork: '行政',
+        enwork: 'Executive',
+        linkedin: 'javascript:void(0);'
+    },
+    {
+        cnName: '过东明',
+        enName: 'Guo Dongming',
+        cnwork: '区块链开发',
+        enwork: 'Blockchain Development',
+        linkedin: 'https://www.linkedin.com/in/dongming-guo-7a864a167'
+    },
+    {
+        cnName: '刘晓光',
+        enName: 'Liu Xiaoguang',
+        cnwork: '区块链开发',
+        enwork: 'Blockchain Development',
+        linkedin: 'https://www.linkedin.com/in/xiaoguang-liu-ab964b167'
+    },
+    {
+        cnName: '李宝洲',
+        enName: 'Li Baozhou',
+        cnwork: '区块链开发',
+        enwork: 'Blockchain Development',
+        linkedin: 'https://www.linkedin.com/in/baozhou-li-073682166'
+    },
+    {
+        cnName: '曹银通',
+        enName: 'Cao Yintong',
+        cnwork: '区块链开发',
+        enwork: 'Blockchain Development',
+        linkedin: 'https://www.linkedin.com/in/yintong-cao-624669167'
+    },
+    {
+        cnName: '周启伦',
+        enName: 'Zhou Qilun',
+        cnwork: '区块链开发',
+        enwork: 'Blockchain Development',
+        linkedin: 'javascript:void(0);'
+    },
+    {
+        cnName: '骆志成',
+        enName: 'Luo Zhicheng',
+        cnwork: '程序员',
+        enwork: 'Programmer',
+        linkedin: 'https://www.linkedin.com/in/zhicheng-luo-9b5682166'
+    },
+    {
+        cnName: '陈镇',
+        enName: 'Chen Zhen',
+        cnwork: '程序员',
+        enwork: 'Programmer',
+        linkedin: 'https://www.linkedin.com/in/zhen-chen-901653167'
+    },
+    {
+        cnName: '卢春锋',
+        enName: 'Lu Chunfeng',
+        cnwork: '程序员',
+        enwork: 'Programmer',
+        linkedin: 'https://www.linkedin.com/in/chunfeng-lu-849320167/'
+    },
+    {
+        cnName: '谢汉伟',
+        enName: 'Xie Hanwei',
+        cnwork: '程序员',
+        enwork: 'Programmer',
+        linkedin: 'https://www.linkedin.com/in/hanwei-xie-63631a166/'
+    },
+    {
+        cnName: '贾行健',
+        enName: 'Jia Xingjian',
+        cnwork: '程序员',
+        enwork: 'Programmer',
+        linkedin: 'javascript:void(0);'
+    },
+    {
+        cnName: '吴波',
+        enName: 'Wu Bo',
+        cnwork: '程序员',
+        enwork: 'Programmer',
+        linkedin: 'javascript:void(0);'
+    },
+    {
+        cnName: '董定兴',
+        enName: 'Dong Dingxing',
+        cnwork: '程序员',
+        enwork: 'Programmer',
+        linkedin: 'javascript:void(0);'
+    },
+    {
+        cnName: '郭茉利',
+        enName: 'Guo Moli',
+        cnwork: '程序员',
+        enwork: 'Programmer',
+        linkedin: 'javascript:void(0);'
+    },
+    {
+        cnName: '薛文',
+        enName: 'Xue Wen',
+        cnwork: 'Art designer',
+        enwork: 'Art designer',
+        linkedin: 'javascript:void(0);'
+    },
+    {
+        cnName: '孟迪',
+        enName: 'Meng Di',
+        cnwork: 'Art designer',
+        enwork: 'Art designer',
+        linkedin: 'javascript:void(0);'
+    },
+    {
+        cnName: '王怡威',
+        enName: 'Wang Yiwei',
+        cnwork: 'QA',
+        enwork: 'QA',
+        linkedin: 'javascript:void(0);'
+    },
+    {
+        cnName: '俞旭铖',
+        enName: 'Yu Xucheng',
+        cnwork: 'QA',
+        enwork: 'QA',
+        linkedin: 'javascript:void(0);'
+    },
+    {
+        cnName: '李克',
+        enName: 'Li Ke',
+        cnwork: 'QA',
+        enwork: 'QA',
+        linkedin: 'javascript:void(0);'
+    },
+    {
+        cnName: '朱梦楠',
+        enName: 'Zhu Mengnan',
+        cnwork: 'UE',
+        enwork: 'UE',
+        linkedin: 'https://www.linkedin.com/in/mengnan-zhu-95a775167'
+    },
+    {
+        cnName: '杨炎杰',
+        enName: 'Yang Yanjie',
+        cnwork: 'UE',
+        enwork: 'UE',
+        linkedin: 'https://www.linkedin.com/in/yanjie-yang-3914a2166'
+    },
+    {
+        cnName: '董晓林',
+        enName: 'Dong Xiaolin',
+        cnwork: '运营',
+        enwork: 'Operation',
+        linkedin: 'https://www.linkedin.com/in/xiaolin-dong-40a763167'
+    },
+    {
+        cnName: '王丽芳',
+        enName: 'Wang Lifang',
+        cnwork: '运营',
+        enwork: 'Operation',
+        linkedin: 'https://www.linkedin.com/in/Szwanglifang'
+    },
+    {
+        cnName: '魏荻',
+        enName: 'Wei Di',
+        cnwork: '编辑',
+        enwork: 'Editor',
+        linkedin: 'https://www.linkedin.com/in/di-wei-770765167'
+    },
+    {
+        cnName: '吴雨桦',
+        enName: 'Wu Yuhua',
+        cnwork: '编辑',
+        enwork: 'Editor',
+        linkedin: 'https://www.linkedin.com/in/yuhua-wu-6b4761167'
+    },
+    {
+        cnName: '袁丽',
+        enName: 'Yuan li',
+        cnwork: '策划',
+        enwork: 'Planner',
+        linkedin: 'javascript:void(0);'
+    },
+    {
+        cnName: '陈云奇',
+        enName: 'Chen Yunqi',
+        cnwork: '策划',
+        enwork: 'Planner',
+        linkedin: 'javascript:void(0);'
+    },
+]

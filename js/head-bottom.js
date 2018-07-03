@@ -1,20 +1,22 @@
+var basePathUrl = "http://www.gamechain.world:81";
+
 var headerText = 
     '<nav class="navbar navbar-inverse navbar-static-top" role="navigation" id="menu">' +
           '<div class="container">' +
-              '<div class="w-col"><a href="./index.html" ><img class="logo" src="./img/logo.png" height="30px"></a></div>' +
+              '<div class="w-col"><a href="' + basePathUrl + '/index.html" ><img class="logo" src="' + basePathUrl + '/img/logo.png" height="30px"></a></div>' +
 
               '<div>' +
                 '<ul class="nav navbar-nav" id="translation">' +
-                  /*'<li  id="user-login" >' +
-                      '<div class="user-icon"><i class="fa fa-user"></i></div>' +
-                      '<div class="user-info">' +
-                        '<div>&nbsp</div>' +
-                        '<div id="user_reset"></div>' + 
-                      '</div> ' +
-                  '</li>' +*/
-                  '<li><img src="./img/header/001.png" id="EN"></li>' +
-                  '<li><img src="./img/header/002.png" id="CN"></li>' +
-                  '<!--<li><img src="./img/header/003.png" id="JA"></li>-->' +
+                //   '<li  id="user-login" >' +
+                //       '<div class="user-icon"><i class="fa fa-user"></i></div>' +
+                //       '<div class="user-info">' +
+                //         '<div>&nbsp</div>' +
+                //         '<div id="user_reset"></div>' + 
+                //       '</div> ' +
+                //   '</li>' +
+                  '<li><img src="' + basePathUrl + '/img/header/001.png" id="EN"></li>' +
+                  '<li><img src="' + basePathUrl + '/img/header/002.png" id="CN"></li>' +
+                  '<!--<li><img src="' + basePathUrl + '/img/header/003.png" id="JA"></li>-->' +
                 '</ul>' +
                 '<!--<div id="google_translate_element"></div>-->' +
               '</div>' +
@@ -31,18 +33,18 @@ var headerText =
               '<!-- MENU LINKS -->' +
               '<div class="navbar-collapse collapse">' +
                   '<ul class="nav navbar-nav" id="navigation">' +
-                    '<li class="t"><a href="./index.html#about" id="navigation_item1">Introduction</a></li>' +
-                    '<li class=""><a href="./index.html#service" id="navigation_item2">Background</a></li>' +
-                    '<li class=""><a href="./index.html#community" id="navigation_item6">Ecology</a></li>' +
-                    '<li class=""><a href="./index.html#advance" id="navigation_item4">Advantage</a></li>' +
-                    '<li class=""><a href="./index.html#team" id="navigation_item5">Team</a></li>' +
-                    '<li class=""><a href="./blog/bloglist.html" id="navigation_item7">Blog</a></li>' +
-                    '<li class=""><a href="./download/download.html" id="navigation_item9">Download</a></li>' +
-                    // '<li class=""><a href="./reward/reward.html" id="navigation_item8">Reward</a></li>' +
+                    '<li class="t"><a href="' + basePathUrl + '/index.html#about" id="navigation_item1">Introduction</a></li>' +
+                    '<li class=""><a href="' + basePathUrl + '/index.html#service" id="navigation_item2">Background</a></li>' +
+                    '<li class=""><a href="' + basePathUrl + '/index.html#community" id="navigation_item6">Ecology</a></li>' +
+                    '<li class=""><a href="' + basePathUrl + '/index.html#advance" id="navigation_item4">Advantage</a></li>' +
+                    '<li class=""><a href="' + basePathUrl + '/index.html#team" id="navigation_item5">Team</a></li>' +
+                    '<li class=""><a href="' + basePathUrl + '/blog/bloglist.html" id="navigation_item7">Blog</a></li>' +
+                    '<li class=""><a href="' + basePathUrl + '/download/download.html" id="navigation_item9">Download</a></li>' +
+                    // '<li class=""><a href="' + basePathUrl + '/reward/reward.html" id="navigation_item8">Reward</a></li>' +
                   '</ul>' +
 
                   '<ul class="nav navbar-nav" id="registration">' +
-                    '<!--<li><a href="./whitelist" target="_blank" id="registration_item_menu">Join whitelist</a></li>-->' +
+                    '<!--<li><a href="' + basePathUrl + '/whitelist" target="_blank" id="registration_item_menu">Join whitelist</a></li>-->' +
                     '<li><span>NOW LIVE!</span></li>' +
                   '</ul>' +          
               '</div>' +
@@ -62,57 +64,53 @@ var bottomText =
           
             '<div class="col-lg-12 col-md-12 col-xs-12 total-content">' +
                 '<div class="logo">' +
-                    '<a href="#top-slider" ><img src="./img/contact/logo.png" alt=""></a>' +
-                    '<!--<a href="./DamnSingle-testnet/mobile.html" target="_blank"><img class="dogLogo" src="./img/contact/dogLogo.png" alt=""></a>-->' +
+                    '<a href="#top-slider" ><img src="' + basePathUrl + '/img/contact/logo.png" alt=""></a>' +
+                    '<!--<a href="' + basePathUrl + '/DamnSingle-testnet/mobile.html" target="_blank"><img class="dogLogo" src="' + basePathUrl + '/img/contact/dogLogo.png" alt=""></a>-->' +
                 '</div>' +
 
                 '<div class="content">' +
                     '<div class="content-left">' +
                         '<div class="content-left-left" style=" flex: 40%;">' +
-                            '<div> <a href="./index.html#about"  id="contact_href_item1">简介</a> </div>' +
-                            '<div> <a href="./index.html#service" id="contact_href_item2">背景及问题</a> </div>' +
-                            '<div><a href="./index.html#community" id="contact_href_item4">社区生态</a></div>' +
-                            '<div> <a href="./index.html#advance" id="contact_href_item5">竞争优势</a> </div>' +                           
+                            '<div> <a href="' + basePathUrl + '/index.html#about"  id="contact_href_item1">简介</a> </div>' +
+                            '<div> <a href="' + basePathUrl + '/index.html#service" id="contact_href_item2">背景及问题</a> </div>' +
+                            '<div><a href="' + basePathUrl + '/index.html#community" id="contact_href_item4">社区生态</a></div>' +
+                            '<div> <a href="' + basePathUrl + '/index.html#advance" id="contact_href_item5">竞争优势</a> </div>' +                           
                         '</div>' +
                         '<div class="content-left-right" style=" flex: 60%;">' +
-                            '<div> <a href="./index.html#team" id="contact_href_item6">团队介绍</a> </div>' +
-                            '<div><a href="./blog/bloglist.html" id="contact_href_item7">Blog</a></div>' +
-                            '<div><a href="./download/download.html" id="contact_href_item9">Download</a></div>' +
-                            // '<div><a href="./reward/reward.html" id="contact_href_item8">Reward</a></div>' +
+                            '<div> <a href="' + basePathUrl + '/index.html#team" id="contact_href_item6">团队介绍</a> </div>' +
+                            '<div><a href="' + basePathUrl + '/blog/bloglist.html" id="contact_href_item7">Blog</a></div>' +
+                            '<div><a href="' + basePathUrl + '/download/download.html" id="contact_href_item9">Download</a></div>' +
+                            // '<div><a href="' + basePathUrl + '/reward/reward.html" id="contact_href_item8">Reward</a></div>' +
                         '</div>' +
                     '</div>' +
                     '<div class="content-right">' +
                         '<div class="contact-we" id="contact_we">Contact Us</div>' +
-                        '<!--<div class="broadcast-group">' +
-                            '<span id="contact_broadcast_group">Notice Address：</span>' +
-                            '<a class="contact-right-text" href="https://t.me/gamefundchannel"  target="_blank">https://t.me/gamefundchannel</a>' +
-                        '</div>  -->' +
                         '<div class="chat-group">' +
                             '<span id="contact_chat_group">Telegram：</span>' +
                             '<a class="contact-right-text" href="https://t.me/gamechainworld"  target="_blank">https://t.me/gamechainworld</a>' +
                         '</div>'   +
                         '<div class="contact-twitter">' +
                             '<span id="contact_twitter">Twitter：</span>' +
-                            '<a class="contact-right-text" href="https://twitter.com/gamefundchain" target="_blank">https://twitter.com/gamefundchain</a>' +
+                            '<a class="contact-right-text" href="https://twitter.com/GameChainWorld" target="_blank">https://twitter.com/GameChainWorld</a>' +
                         '</div>' +
                         '<div class="contact-github">' +
                             '<span id="contact_github">Github：</span>' +
-                            '<a class="contact-right-text" href="https://github.com/gamefund" target="_blank">https://github.com/gamefund</a>' +
+                            '<a class="contact-right-text" href="https://github.com/GameChainWorld" target="_blank">https://github.com/GameChainWorld</a>' +
                         '</div>' +
                         '<div class="mail-group">' +
                             '<span id="contact_mail">Email：</span>' +
-                            '<a class="contact-right-text" href="mailto:info@game.fund" target="_blank">info@game.fund</a>' +
+                            '<a class="contact-right-text" href="mailto:info@gamechain.world" target="_blank">info@gamechain.world</a>' +
                         '</div>' +
                     '</div>' +       
                 '</div>' +
 
                 '<div class="qr-code">' +
                     '<!--<div class="broadcast">' +
-                        '<img src="./img/contact/broadcast.png" />' +
+                        '<img src="' + basePathUrl + '/img/contact/broadcast.png" />' +
                         '<div id="broadcast_group">Broadcast Group</div>' +
                     '</div>-->' +
                     '<div class="chat" >' +
-                        '<img src="./img/contact/chat.png" />' +
+                        '<img src="' + basePathUrl + '/img/contact/chat.png" />' +
                         '<div id="chat_group">Chat Group</div>' +
                     '</div>' +         
                 '</div>' +       
