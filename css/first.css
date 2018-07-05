@@ -25,7 +25,7 @@
     }
     .home-abstract .abstract-content .abstract-content-text{
         color: #fcf5f5;
-        font-size: 2.4rem;
+        font-size: 2.2rem;
         margin-bottom: 2.5rem;
     }
     .home-abstract .abstract-content .abstract-content-text > span{
@@ -62,7 +62,7 @@
         position: relative;
         top: 12.5%;
         width: 90%;
-        margin: 1rem auto;
+        margin: 4rem auto;
         display: flex;
         justify-content: space-between;
     }
@@ -73,9 +73,10 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin-bottom: 1rem;
     }
     .home-feature .feature-content-item .feature-item-img{
-        width: 20%;
+        width: 16%;
     }
     .home-feature .feature-content-item .feature-item-text{
         width: 75%;
@@ -87,8 +88,9 @@
 
     .home-feature .feature-content-item .feature-item-text{
         color: #fcf5f5;
-        font-size: 2.4rem;
+        font-size: 1.8rem;
         margin-bottom: 1rem;
+        line-height: 133%;
     }
     .home-feature .feature-content-item .feature-item-text > span{
         color: #EB1C24;
@@ -121,6 +123,7 @@
         background-image: url(../img/why_blockchain/Why_Blockchain_Header.png);
         background-size: 100%;
         background-repeat: no-repeat;
+        display: flex;
     }
 
     .home-blockchain .blockchain-container .blockchain-content{
@@ -128,7 +131,10 @@
         top: 12.5%;
         width: 90%;
         height: 87.5%;
-        margin: auto;
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: column;
     }
     .home-blockchain .blockchain-content-item{
         width: 65%;
@@ -138,7 +144,7 @@
     .home-blockchain .blockchain-content-item .blockchain-item-title{
         font-size: 2.5rem;
         font-style: italic;
-        margin-bottom: 1rem;
+        /*margin-bottom: 1rem;*/
         color: #EB1C24;
     }
     .home-blockchain .blockchain-content-item:nth-child(2) .blockchain-item-title{
@@ -202,7 +208,7 @@
         height: 100%;
     }
     .home-advantage .advantage-container .background-img .competitive-content .item-content{
-        width: 28%;
+        width: 27%;
         height: 28%;
         position: relative;
         padding: 0.5rem;
