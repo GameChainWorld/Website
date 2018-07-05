@@ -1,4 +1,5 @@
 var basePathUrl = "http://www.gamechain.world:81";
+// var basePathUrl = ".";
 
 var headerText = 
     '<nav class="navbar navbar-inverse navbar-static-top" role="navigation" id="menu">' +
@@ -33,13 +34,15 @@ var headerText =
               '<!-- MENU LINKS -->' +
               '<div class="navbar-collapse collapse">' +
                   '<ul class="nav navbar-nav" id="navigation">' +
-                    '<li class="t"><a href="' + basePathUrl + '/index.html#about" id="navigation_item1">Introduction</a></li>' +
-                    '<li class=""><a href="' + basePathUrl + '/index.html#service" id="navigation_item2">Background</a></li>' +
-                    '<li class=""><a href="' + basePathUrl + '/index.html#community" id="navigation_item6">Ecology</a></li>' +
-                    '<li class=""><a href="' + basePathUrl + '/index.html#advance" id="navigation_item4">Advantage</a></li>' +
-                    '<li class=""><a href="' + basePathUrl + '/index.html#team" id="navigation_item5">Team</a></li>' +
-                    '<li class=""><a href="' + basePathUrl + '/blog/bloglist.html" id="navigation_item7">Blog</a></li>' +
-                    '<li class=""><a href="' + basePathUrl + '/download/download.html" id="navigation_item9">Download</a></li>' +
+                    '<li class="t"><a href="' + basePathUrl + '/index.html#about" id="">Introduction</a></li>' +
+                    '<li class=""><a href="' + basePathUrl + '/index.html#feature" id="">Feature</a></li>' +
+                    '<li class=""><a href="' + basePathUrl + '/index.html#why_blockchain" id="">Blockchain</a></li>' +
+                    '<li class=""><a href="' + basePathUrl + '/index.html#advance" id="">Advantage</a></li>' +
+                    '<li class=""><a href="' + basePathUrl + '/index.html#team" id="">Team</a></li>' +
+                    '<li class=""><a href="' + basePathUrl + '/index.html#allocation" id="">Allocation</a></li>' +
+                    '<li class=""><a href="' + basePathUrl + '/index.html#roadmap" id="">Roadmap</a></li>' +
+                    '<li class=""><a href="' + basePathUrl + '/blog/bloglist.html" id="">Blog</a></li>' +
+                    '<li class=""><a href="' + basePathUrl + '/download/download.html" id="">Download</a></li>' +
                     // '<li class=""><a href="' + basePathUrl + '/reward/reward.html" id="navigation_item8">Reward</a></li>' +
                   '</ul>' +
 
@@ -56,70 +59,35 @@ $("body").prepend(headerText);
 
 var bottomText =
     '<!-- CONTACT -->' +
-    '<div id="contact">' +
-      '<div class="container" style="width: 90vw; height: 100%;">' +
-        '<div class="row" style="height: 100%;">' +
-        
-          '<div class="center-block" style="height: 100%;">' +
-          
-            '<div class="col-lg-12 col-md-12 col-xs-12 total-content">' +
-                '<div class="logo">' +
-                    '<a href="#top-slider" ><img src="' + basePathUrl + '/img/contact/logo.png" alt=""></a>' +
-                    '<!--<a href="' + basePathUrl + '/DamnSingle-testnet/mobile.html" target="_blank"><img class="dogLogo" src="' + basePathUrl + '/img/contact/dogLogo.png" alt=""></a>-->' +
-                '</div>' +
+    '<div id="contact" class="home-footer">' +
 
-                '<div class="content">' +
-                    '<div class="content-left">' +
-                        '<div class="content-left-left" style=" flex: 40%;">' +
-                            '<div> <a href="' + basePathUrl + '/index.html#about"  id="contact_href_item1">简介</a> </div>' +
-                            '<div> <a href="' + basePathUrl + '/index.html#service" id="contact_href_item2">背景及问题</a> </div>' +
-                            '<div><a href="' + basePathUrl + '/index.html#community" id="contact_href_item4">社区生态</a></div>' +
-                            '<div> <a href="' + basePathUrl + '/index.html#advance" id="contact_href_item5">竞争优势</a> </div>' +                           
-                        '</div>' +
-                        '<div class="content-left-right" style=" flex: 60%;">' +
-                            '<div> <a href="' + basePathUrl + '/index.html#team" id="contact_href_item6">团队介绍</a> </div>' +
-                            '<div><a href="' + basePathUrl + '/blog/bloglist.html" id="contact_href_item7">Blog</a></div>' +
-                            '<div><a href="' + basePathUrl + '/download/download.html" id="contact_href_item9">Download</a></div>' +
-                            // '<div><a href="' + basePathUrl + '/reward/reward.html" id="contact_href_item8">Reward</a></div>' +
-                        '</div>' +
-                    '</div>' +
-                    '<div class="content-right">' +
-                        '<div class="contact-we" id="contact_we">Contact Us</div>' +
-                        '<div class="chat-group">' +
-                            '<span id="contact_chat_group">Telegram：</span>' +
-                            '<a class="contact-right-text" href="https://t.me/gamechainworld"  target="_blank">https://t.me/gamechainworld</a>' +
-                        '</div>'   +
-                        '<div class="contact-twitter">' +
-                            '<span id="contact_twitter">Twitter：</span>' +
-                            '<a class="contact-right-text" href="https://twitter.com/GameChainWorld" target="_blank">https://twitter.com/GameChainWorld</a>' +
-                        '</div>' +
-                        '<div class="contact-github">' +
-                            '<span id="contact_github">Github：</span>' +
-                            '<a class="contact-right-text" href="https://github.com/GameChainWorld" target="_blank">https://github.com/GameChainWorld</a>' +
-                        '</div>' +
-                        '<div class="mail-group">' +
-                            '<span id="contact_mail">Email：</span>' +
-                            '<a class="contact-right-text" href="mailto:info@gamechain.world" target="_blank">info@gamechain.world</a>' +
-                        '</div>' +
-                    '</div>' +       
+        '<div class="home-footer-container">' +
+            '<div class="content-left">' +
+                '<div class="footer-logo-container">' +
+                    '<a href="#top-slider" ></a>' +
                 '</div>' +
-
-                '<div class="qr-code">' +
-                    '<!--<div class="broadcast">' +
-                        '<img src="' + basePathUrl + '/img/contact/broadcast.png" />' +
-                        '<div id="broadcast_group">Broadcast Group</div>' +
-                    '</div>-->' +
-                    '<div class="chat" >' +
-                        '<img src="' + basePathUrl + '/img/contact/chat.png" />' +
-                        '<div id="chat_group">Chat Group</div>' +
-                    '</div>' +         
-                '</div>' +       
             '</div>' +
-          
-          '</div>' +
-          
+            '<div class="content-right">' +
+                '<div class="contact-we">CONTACT</div>' +
+                '<div class="contact-item">' +
+                    '<span id="contact_chat_group">TELEGRAM</span>' +
+                    '<a class="contact-right-text" href="https://t.me/gamechainworld" target="_blank">https://t.me/gamechainworld</a>' +
+                '</div>'   +
+                '<div class="contact-item">' +
+                    '<span id="contact_twitter">TWITTER</span>' +
+                    '<a class="contact-right-text" href="https://twitter.com/GameChainWorld" target="_blank">https://twitter.com/GameChainWorld</a>' +
+                '</div>' +
+                '<div class="contact-item">' +
+                    '<span id="contact_github">GITHUB</span>' +
+                    '<a class="contact-right-text" href="https://github.com/GameChainWorld" target="_blank">https://github.com/GameChainWorld</a>' +
+                '</div>' +
+                '<div class="contact-item">' +
+                    '<span id="contact_mail">EMAIL</span>' +
+                    '<a class="contact-right-text" href="mailto:info@gamechain.world" target="_blank">info@gamechain.world</a>' +
+                '</div>' +
+            '</div>' +       
         '</div>' +
-      '</div>' +
+
     '</div>' +
     '<!-- CONTACT END -->';
 

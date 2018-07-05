@@ -107,8 +107,22 @@
 		text-align: center;
 	}
 
+
+
+/* 2. Navbar
+-------------- */
+
+    .navbar-inverse {
+    background-color: #000;
+    }
+    
+    #skillbar h6 {
+	    color: #fff !important;
+    }
     /* 2. NAVBAR
     -------------------------------------------------- */
+
+
     #menu .w-col img.logo{
         margin-top:10px
     }
@@ -268,6 +282,7 @@
         }
     }
 
+    
     /* 3. SLIDER BACKGROUND
     -------------------------------------------------- */
     
@@ -290,66 +305,17 @@
     	height: 47vw;
         background-size: 100% 100%;
     }
-
-    /* 4. ABOUT US
-    -------------------------------------------------- */
-
-    .html {
-    	width: 95%;  /* YOUR SKILL VALUE HERE */
-    	-moz-animation: html 15s ease-out;
-    	-webkit-animation: html 15s ease-out;
-    	background-color: #e67e22;
+    #top-slider .sequence-logo{
+        padding-top: 49.5%;
+        display: block;
+        width: 100%;
+        background-image: url(../img/contact/GCC_Logo.png);
+        background-size: 200%;
+        background-position: 20% center;
+        background-repeat: no-repeat;
     }
 
-    .css {
-    	width: 90%; /* YOUR SKILL VALUE HERE */
-    	-moz-animation: css 15s ease-out;
-    	-webkit-animation: css 15s ease-out;
-    	background-color: #e67e22;
-    }
 
-    .java {
-    	width: 55%; /* YOUR SKILL VALUE HERE */
-    	-moz-animation: java 15s ease-out;
-    	-webkit-animation: java 15s ease-out;
-    	background-color: #e67e22;
-    }
-
-    .php {
-    	width: 65%; /* YOUR SKILL VALUE HERE */
-    	-moz-animation: php 15s ease-out;
-    	-webkit-animation: php 15s ease-out;
-    	background-color: #e67e22;	
-    }
-
-    .psd {
-    	width: 85%; /* YOUR SKILL VALUE HERE */
-    	-moz-animation: psd 15s ease-out;
-    	-webkit-animation: psd 15s ease-out;
-    	background-color: #e67e22;	
-    }
-
-.copyrights{
-	text-indent:-9999px;
-	height:0;
-	line-height:0;
-	font-size:0;
-	overflow:hidden;
-}
-    
-    /* animation keyframes */
-
-    @-moz-keyframes html {0%  { width:0px;} 100%{ width:95%;}  }
-    @-moz-keyframes css        { 0%  { width:0px;} 100%{ width:90%;}  }
-    @-moz-keyframes java      { 0%  { width:0px;} 100%{ width:55%;}  }
-    @-moz-keyframes php   { 0%  { width:0px;} 100%{ width:65%;}  }
-    @-moz-keyframes psd   { 0%  { width:0px;} 100%{ width:85%;}  }
-
-    @-webkit-keyframes html       { 0%  { width:0px;} 100%{ width:95%;}  }
-    @-webkit-keyframes css        { 0%  { width:0px;} 100%{ width:90%;}  }
-    @-webkit-keyframes java      { 0%  { width:0px;} 100%{ width:55%;}  }
-    @-webkit-keyframes php   { 0%  { width:0px;} 100% { width:65%;}  }
-    @-webkit-keyframes psd   { 0%  { width:0px;} 100% { width:85%;}  }
     
     /* 5. SERVICE
     -------------------------------------------------- */
@@ -419,31 +385,7 @@
     }
     
    /* Icons  */
-    
-    .icon-wrench, .icon-mobile {
-        /*background: url('../img/icon-bg.png') repeat-x center center;*/
-        position: relative;
-        display: inline-block;
-        width: 80px;
-        height: 80px;
-        padding-top: 25px;
-        border-radius: 50%;
-	    -webkit-border-radius: 50%;
-	    -moz-border-radius: 50%;
-    }
-    
-    .icon-desktop {
-        background: url('../img/icon-bg.png') repeat-x center center;
-        position: relative;
-        display: inline-block;
-        width: 140px;
-        height: 140px;
-        padding-top: 22px;
-        border-radius: 50%;
-	    -webkit-border-radius: 50%;
-	    -moz-border-radius: 50%;
-    }
-    
+
     .webdesign {
 	    z-index: 1000;
     }
@@ -460,33 +402,6 @@
 	    padding: 10px 20px;
     }
 
-    /* 6. PORTFOLIO
-    -------------------------------------------------- */
-    
-    /* Filter */
-    
-    .filter-list ul{
-        text-align: center;
-    }
-    
-    .filter-list ul li {
-        margin: 5px;
-        cursor: pointer;
-    }
-    #portfolio .nav-pills > li > a:hover, #portfolio .nav-pills > li > a:focus{
-        background-color: red !important;
-    }
-
-    /* images grid and hover effect */
-    
-    .gallery {
-	    margin: 40px 0px 0px 0px;
-    }
-    
-    #Grid .mix{
-        opacity: 0;
-        display: none;
-    }
 
     .images {
 	    margin: 10px 0px;
@@ -496,84 +411,7 @@
         position: relative;
         overflow: hidden;
     }
- 
-    .caption {
-        position: absolute;
-        top: 0;
-        right: 0;
-        background: rgba(0, 0, 0, 0.75);
-        width: 100%;
-        height: 100%;
-        padding: 2%;
-        display: none;
-        text-align: center;
-        z-index: 2;
-    }
-    
-    .caption h5 {
-	    margin-top: 15%;
-	    margin-left: 10px;
-	    margin-right: 10px;
-    }
-    
-    .caption p {
-	    font-size: 12px;
-    }
 
-    /* 7. TEAM
-    -------------------------------------------------- */
-    
-    .team {
-	    margin: 0px 10px;
-	    padding: 30px 10px;
-	    -webkit-transition:  ease-out 0.6s;
-        -moz-transition: ease-out 0.6s;
-        -o-transition: ease-out 0.6s;
-        transition: ease-out 0.6s;
-    }
-    .team2 {
-	    margin: 0px 10px;
-	    padding: 30px 10px;
-	    -webkit-transition:  ease-out 0.6s;
-        -moz-transition: ease-out 0.6s;
-        -o-transition: ease-out 0.6s;
-        transition: ease-out 0.6s;
-    }
-
-    .job {
-        font-size: 12px;
-    }
-    
-    .team p {
-	    padding: 10px;
-    }
-    
-    .team:hover {
-	    -webkit-transition: all 0.6s linear;
-        -moz-transition: all 0.6s linear;
-        -o-transition: all 0.6s linear;
-        -ms-transition: all 0.6s linear;
-        transition: all 0.6s linear;
-    }
-    
-    .team:hover p {
-	    padding: 10px;
-    }
-    .team2 p {
-	    padding: 10px;
-    }
-    
-    .team2:hover {
-	    -webkit-transition: all 0.6s linear;
-        -moz-transition: all 0.6s linear;
-        -o-transition: all 0.6s linear;
-        -ms-transition: all 0.6s linear;
-        transition: all 0.6s linear;
-    }
-    
-    .team2:hover p {
-	    padding: 10px;
-    }
     
    /* Team Member Images  */
     
@@ -592,139 +430,8 @@
 	    -webkit-border-radius: 50%;
 	    -moz-border-radius: 50%;
     }
-    
-    .member2 {
-        background: url('../img/team/1.jpg') center center no-repeat; /* YOUR IMAGE HERE */
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        position: relative;
-        display: inline-block;
-        width: 140px;
-        height: 140px;
-        padding-top: 25px;
-        border-radius: 50%;
-	    -webkit-border-radius: 50%;
-	    -moz-border-radius: 50%;
-    }
-    
-    .member3 {
-        background: url('../img/team/1.jpg') center center no-repeat; /* YOUR IMAGE HERE */
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        position: relative;
-        display: inline-block;
-        width: 140px;
-        height: 140px;
-        padding-top: 25px;
-        border-radius: 50%;
-	    -webkit-border-radius: 50%;
-	    -moz-border-radius: 50%;
-    }
-    
-    .member4 {
-        background: url('../img/team/1.jpg') center center no-repeat; /* YOUR IMAGE HERE */
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        position: relative;
-        display: inline-block;
-        width: 140px;
-        height: 140px;
-        padding-top: 25px;
-        border-radius: 50%;
-	    -webkit-border-radius: 50%;
-	    -moz-border-radius: 50%;
-    }
 
-    /* TEAM MEMBER SOCIAL ICONS */
-    
-    .social-team a{
-	    padding: 0px 5px;
-    }
-    
-    .icon-social {
-        position: relative;
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-	    -webkit-border-radius: 50%;
-	    -moz-border-radius: 50%;
-    }
 
-    /* 8. PRICE
-    -------------------------------------------------- */
-    
-    .tables {
-	    padding-bottom: 60px;
-    }
-
-    .price-table {
-	    text-align: center;
-    	margin-bottom: 20px;
-	}
-	
-	.price-table:hover {
-      -webkit-transition: all 0.6s linear;
-      -moz-transition: all 0.6s linear;
-      -o-transition: all 0.6s linear;
-      -ms-transition: all 0.6s linear;
-      transition: all 0.6s linear;
-    }
-	
-	.price-table-body {
-		padding: 0px;
-		text-align: center;
-	}
-	
-	.price-table-heading h3 {
-	    font-weight: 400;
-	    font-size: 28px;
-	    line-height: 1em;
-	    padding: 30px;
-	    margin: 0;
-	}
-
-	.the-price {
-		padding: 20px;
-		margin: 0;
-	}
-	
-	.the-price h1 {
-	    font-size: 50px;
-		line-height: 1em;
-	    margin: 0;
-	}
-
-	.month
-	{
-	    font-size: 16px;
-	}
-	
-	.price-table-footer {
-		padding: 30px;
-	}
-	
-	.table-feature {
-		margin-top: -60px;
-		-webkit-transition:  ease-out 0.6s;
-        -moz-transition: ease-out 0.6s;
-        -o-transition: ease-out 0.6s;
-        transition: ease-out 0.6s;
-	}
-	
-	.table-feature:hover {
-       -webkit-transition: all 0.6s linear;
-       -moz-transition: all 0.6s linear;
-       -o-transition: all 0.6s linear;
-       -ms-transition: all 0.6s linear;
-       transition: all 0.6s linear;
-    }
 	
 	/* 14. FEATURE STYLES
     -------------------------------------------------- */
@@ -778,149 +485,12 @@
         margin: 1px 0;
      }
      
-     /* Filter */
-
-    .filter-list ul{
-        text-align: center;
-    }
-    
-    /* Contact Form */
-      
-    .input-group {
-	    max-width: 300px !important;
-	    float: none;
-        margin: 0 auto;
-    }
-	
-	.form {
-		padding-bottom: 50px;
-	}
-	
-	
-	.requi {
-	    padding-left: 15px;
-	    font-size: 12px;
-    }
-
-    }
 
     @media only screen and (max-width: 768px) {
     
-    .slide {
-	    padding-top: 30%;
-    }
-    
-    /* Team */
-   
-   .team {
-      -webkit-transition:  none;
-      -moz-transition: none;
-      -o-transition: none;
-      transition: none;
-    }
-    
-    .team:hover {
-        -webkit-transition: none;
-        -moz-transition: none;
-        -o-transition: none;
-        -ms-transition: none;
-        transition: none;
-    }
-    .team2 {
-      -webkit-transition:  none;
-      -moz-transition: none;
-      -o-transition: none;
-      transition: none;
-    }
-    
-    .team2:hover {
-        -webkit-transition: none;
-        -moz-transition: none;
-        -o-transition: none;
-        -ms-transition: none;
-        transition: none;
-    }
-    
-    /* Filter */
-    
-    .filter-list ul{
-        text-align: center;
-    }
-
-    }
-    
-    @media (max-width: 489px) {
-    
-    /* Filter */
-    
-    .filter-list ul{
-        text-align: center;
-    }
-    
-    .filter-list ul li {
-        margin-left: 5px;
-        cursor: pointer;
-        font-size: 12px;
-    }
-    
-    .nav-pills > li > a {
-        position: relative;
-        display: block;
-        padding: 5px 10px
-    }
-    
-    .gallery ul li {
-      margin: 0;
-      padding: 0px 0;
-      float: left;
-    }
-    
-    .gallery ul li:hover {
-      margin: 0;
-      padding: 0px 0;
-      float: left;
-    }
-    
-   .gallery ul li:hover img {
-      opacity: 0.1;
-    }
-    
-    .gallery ul li:hover strong {
-      font-size: 12px;
-      margin: 0;
-      padding: 10px 0;
-      position: absolute;
-      display: block;
-      text-align: center;
-      bottom: 55%;
-      opacity: 0.9;
-    }
-    
-    .gallery ul li:hover p {
-      font-size: 12px;
-      margin: 0;
-      padding: 0px 0px 20px 0px;
-      position: absolute;
-      width: 100%;
-      display: block;
-      text-align: center;
-      bottom: 0;
-    }
-
-    .gallery ul li:hover p span {
-      margin-top: 20px;
-      font-size: 12px;
-      display: block;
-    }
-
-    }
-    
-    @media (max-width: 767px) {
-    
-    /* Heading */
-    
-    h1 {
-	    font-size: 50px;
+        .slide {
+            padding-top: 30%;
+        }
     }
     
     /* Top Slider */
@@ -998,4 +568,21 @@
     	background: cover;
     }
 
+    }
+
+
+/* 11. Borders
+-------------- */
+    .head-border-white {
+	    background: #fff;
+    }
+    
+    .head-border-grey {
+	    background: #443e44;
+    }	
+
+/* 12. General
+-------------- */
+    .head p {
+	    color: #fff;
     }

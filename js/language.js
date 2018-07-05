@@ -151,7 +151,7 @@ var cn = {
                       '• 日常交易员和ICO专家。',
 
     team_name_item13: '李翀',
-    team_work_item13: '',
+    team_work_item13: 'PPTV联合创始人，点亮资本联合创始人',
     team_text_item13: '天使投资人，点亮资本发起人，PPTV联合创始人。专注于移动互联网、区块链等领域，涌现出布比区块链、三迪建科、波奇、P2联合办公等一大批优秀项目。',
 
     team_name_item14: '李万才',
@@ -327,7 +327,7 @@ var en = {
     
     team_name_item05: 'Xin Xiaoqi',
     team_work_item05: 'Operations Director',
-    team_text_item05: 'With eleven years\' work experience in game industry, he once participated in production of many large scale network games including "Star Wars: The Old Republic". He also had many years\' management experience and operation experience in project development.',
+    team_text_item05: 'Eleven years\' work experience in game industry; Once participated in production of many large-scale network games including "Star Wars: The Old Republic". Also has many years\' management and operation experience in project development; Now responsible for QA management, community operation and user growth in Gamechain.',
     
 
     team_name_item11: 'Behrang Khorsandian',
@@ -343,7 +343,7 @@ var en = {
                       '• Daily trader & ICO specialist.',
 
     team_name_item13: 'Li Chong',
-    team_work_item13: '',
+    team_work_item13: 'Co-Founder of PPTV, sponsor of DL Capital',
     team_text_item13: 'Angel Investor, the sponsor of DL Capital, Co-Founder of PPTV. Focus on the mobile Internet, blockchain and other fields, emerge Bubi blockchain, SandiJianke, Boqi, P2 joint office and a large number of outstanding project.',
 
     team_name_item14: 'Li Wancai',
@@ -394,7 +394,7 @@ var bigTeam = [
         cnName: '施凯凯',
         enName: 'Shi Kaikai',
         cnwork: '产品总监',
-        enwork: 'product officer',
+        enwork: 'Product Director',
         linkedin: 'https://www.linkedin.com/in/kaikai-shi-422b72157'
     },
     {
@@ -505,15 +505,15 @@ var bigTeam = [
     {
         cnName: '薛文',
         enName: 'Xue Wen',
-        cnwork: 'Art designer',
-        enwork: 'Art designer',
+        cnwork: 'Art Designer',
+        enwork: 'Art Designer',
         linkedin: 'javascript:void(0);'
     },
     {
         cnName: '孟迪',
         enName: 'Meng Di',
-        cnwork: 'Art designer',
-        enwork: 'Art designer',
+        cnwork: 'Art Designer',
+        enwork: 'Art Designer',
         linkedin: 'javascript:void(0);'
     },
     {

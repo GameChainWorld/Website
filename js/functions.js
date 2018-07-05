@@ -6,71 +6,9 @@ $(document).ready(function() {
     //调用翻译的内容
     translation();
 
-    if(language == "cn"){
-        $("#community-video .video-content .btn-video img").attr("src", "./img/community/bg_btn.jpg");
-    }else{
-        $("#community-video .video-content .btn-video img").attr("src", "./img/community/bg_btn_en.jpg");
-    }
-
     //给dAPP添加链接
     $("#team .team-support-content .team-support-item1 a").attr({"href": "http://ndapp.org", "target": "_blank"});
 
-
-    if($(window).width() > 1251){
-        var margin_bottom = ($(window).width() * 0.495 - $("#competitive .head").height() - 457.6)/2;
-        $("#competitive .head").css("margin-bottom", margin_bottom)
-    }
-    if($(window).width() < 451){
-        $("#community-video .video-content .btn-video img").attr("src", "./img/community/bg_btn_big_en.jpg");
-        if(language == "cn")$("#community-video .video-content .btn-video img").attr("src", "./img/community/bg_btn_big.jpg");
-    }
-
-    $(window).resize(function(){//监听浏览器窗口大小事件
-
-        if($(window).width() > 1251){
-            var margin_bottom = ($(window).width() * 0.495 - $("#competitive .head").height() - 457.6)/2;
-            $("#competitive .head").css("margin-bottom", margin_bottom);
-        }else{
-            $("#competitive .head").css("margin", "0vw 0 4vw");
-        }
-        if($(window).width() < 451){
-            $("#community-video .video-content .btn-video img").attr("src", "./img/community/bg_btn_big_en.jpg");
-            if(language == "cn")$("#community-video .video-content .btn-video img").attr("src", "./img/community/bg_btn_big.jpg");
-        }else {
-            $("#community-video .video-content .btn-video img").attr("src", "./img/community/bg_btn_en.jpg");
-            if(language == "cn")$("#community-video .video-content .btn-video img").attr("src", "./img/community/bg_btn.jpg");
-        }
-    })
-
-    var community_video = $("#community-video .video-content video")[0];
-
-    //community的视频动态修改
-    $("#community-video .video-content .btn-video").click(function(){
-        $("#community-video .video-content video").show();
-        var language = localStorage.getItem("language");
-        if(language == "cn"){
-            var text = '<source src="./img/community/gamefund.webm" type="video/webm" />' +
-                       '<source src="./img/community/gamefund.mp4" type="video/mp4" />' +     
-                       '<div id="video_tag_tip">您的浏览器不支持video标签</div>';
-            $("#community-video .video-content video").append(text);           
-        }else{
-            var text = '<source src="./img/community/gamefund_en.webm" type="video/webm" />' +
-                       '<source src="./img/community/gamefund_en.mp4" type="video/mp4" />' +     
-                       '<div id="video_tag_tip">您的浏览器不支持video标签</div>';
-            $("#community-video .video-content video").append(text);
-        }
-
-        $(this).hide();
-        if(community_video.paused){
-            community_video.play();
-            $("#community-video .video-content .btn-video").css("display", "none");
-            $("#community-video .video-content video").attr("controls", "controls");
-        }else{
-            community_video.pause();
-            $("#community-video .video-content .btn-video").show();
-        }
-    })
-        
 
     /*----------------------------------------------------*/
     /*	Sequence Slider
@@ -119,99 +57,22 @@ $(document).ready(function() {
             }  
         });
     });
-    
-    $(document).ready(function(){
-        
-    })
 
     //根据不同语音版本和屏宽修改标签元素
     $(function(){
         var language = localStorage.getItem("language");        
         if(language == "en"){
-            $("#portfolio .overlay p ").css("line-height", "18px");
-            $("#portfolio .overlay  #Grid_title_item11").css("margin", "0");
-            
-            $("#competitive .background-img .competitive-content .item-content .item-title").css("font-size", "16px");
-            $("#competitive .background-img .competitive-content .item-content .item-title").css("margin-bottom", "0");
-            $("#competitive .background-img .competitive-content .fifth-content .item-title").css("margin-top", "0");
-            $("#competitive .background-img .competitive-content #competitive_title_item6").css("line-height", "20px");
             // $("#industry-status .container .prominent-characteristic").css("margin-top", "5vw");
             $("#industry-status .container .special-info div span").css("line-height", "20px");
-            $("#industry-status .industry-status-intro").css("top", "12%");
+            $("#industry-status .industry-status-intro").css("top", "12%");    
 
-            if($(window).width() > 1251){
-                $("#portfolio #Grid .service-col").css("padding-top", "25px");
-                $("#portfolio .overlay .icon-mobile").css("height", "55px");
-            }
-            if($(window).width() > 1250){
-                $("#service .container .service .service-col").css("padding", "0");
-                $("#service .service-col p").css("line-height", "18px");
-            }
-            
-            if($(window).width() < 1400){
-                $("#service .service-col h4").css({"line-height":"20px", "padding":"0"});
-            }
-         
         }else if(language == "ja"){          
-            $("#portfolio #Grid .service-col").css("padding-top", "25px");
-            $("#portfolio .overlay .icon-mobile").css("height", "55px");
+
             $("#industry-status .industry-status-intro").css("top", "12%");     
-            $("#competitive .background-img .competitive-content #competitive_title_item6").css({"line-height": "20px", "margin-bottom": "0px"});//competitive_title_item3
-            $("#competitive .background-img .competitive-content #competitive_title_item3").css({"line-height": "20px", "margin-bottom": "0px"});
-
-
-            if($(window).width() > 1250){
-                $("#service .container .service .service-col").css("padding", "0");
-                $("#service .service-col p").css("line-height", "22px");
-                $("#service .service-col h4").css({"margin": "0", "padding":"0"});
-            }
-            if($(window).width() < 475){
-                $("#sequence_other_item2_fourth").css({"position": "absolute", "letter-spacing": "-1px", "font-size": "15px"});
-            }
-            if($(window).width() < 375){
-                $("#sequence_other_item2_fourth").css({"position": "absolute", "letter-spacing": "-2px", "font-size": "15px"});
-            }
             $("#sequence_item2_fourth").css({"position": "absolute"});
         }
     })
 
-    $(window).resize(function(){
-        var language = localStorage.getItem("language");
-        if(language == "en"){       
-            if($(window).width() > 1251){
-                $("#portfolio #Grid .service-col").css("padding-top", "25px");
-                $("#portfolio .overlay .icon-mobile").css("height", "55px");
-            }
-            if($(window).width() > 1250){
-                $("#service .container .service .service-col").css("padding", "0");
-                $("#service .service-col p").css("line-height", "18px");
-            }else{
-                $("#service .container .service .service-col").css("padding", "30px 10px");
-            }
-            
-            if($(window).width() < 1400){
-                $("#service .service-col h4").css({"line-height":"20px", "padding":"0"});
-            }else if($(window).width() < 451){
-                $("#service .service-col h4").css({"line-height":"inherit", "padding":"10px 0px"});
-            }else{
-                $("#service .service-col h4").css({"line-height":"inherit", "padding":"10px 0px"});
-            }
-
-        }else if(language == "ja"){
-            if($(window).width() > 1250){
-                $("#service .container .service .service-col").css("padding", "0");
-                $("#service .service-col p").css("line-height", "22px");
-                $("#service .service-col h4").css({"margin": "0", "padding":"0"});
-            }else{
-                $("#service .container .service .service-col").css("padding", "30px 10px");
-            }
-            if($(window).width() < 375){
-                $("#sequence_other_item2_fourth").css({"position": "absolute", "letter-spacing": "-2px", "font-size": "15px"});
-            }else{
-                $("#sequence_other_item2_fourth").css({"position": "block", "letter-spacing": "-1px", "font-size": "16px"})
-            }
-        }
-    })
 
     //添加上普通成员
     for(var i in bigTeam){

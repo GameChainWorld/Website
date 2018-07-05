@@ -155,9 +155,9 @@ $(function(){
             "<div class='container'>" +
                 "<form id='form_common_id' class='form-container'>" +
                     "<div class='form-logo'>" +
-                        "<img src='https://game.fund/img/logo2.png' width='20%' style='margin-top: -70px;' alt=''/>" +
+                        "<img src='./img/logo2.png' width='20%' style='margin-top: -70px;' alt=''/>" +
                     "</div>" +
-                    "<h4><span style='color: #fe6501;'>G</span>AME.<span style='color: #fe6501;'>F</span>UND</h4>" +
+                    "<h4><span style='color: #fe6501;'>G</span>AME<span style='color: #fe6501;'>C</span>HAIN</h4>" +
                     //虚位以待。。。 
                     "<div class='form-content'></div>"                
                 "</form>" +
@@ -782,15 +782,15 @@ $(function(){
             '</div>' +
         '</div>';
 
-        addStyle("https://game.fund/reward/css/reward.css");
+        addStyle("./reward/css/reward.css");
         $("body").empty();
         $("body").append(text);
 
-        addScript("https://game.fund/js/jquery-1.10.2.min.js");
-        addScript("https://game.fund/js/bootstrap.min.js");
-        addScript("https://game.fund/js/jquery.sticky.js");
+        addScript("./js/jquery-1.10.2.min.js");
+        addScript("./js/bootstrap.min.js");
+        addScript("./js/jquery.sticky.js");
         
-        addScript("https://game.fund/js/head-bottom.js", function(){
+        addScript("./js/head-bottom.js", function(){
             var settingHeight = $(window).height() - 54 - $("#contact").height();
             $("#mySetting-container.reward-container").css("min-height", settingHeight);
             $("#mySetting-container.reward-container .reward-tasklist-content").css({"top":"5vw", "padding-bottom":"10vw"});
@@ -808,7 +808,7 @@ $(function(){
                     $(this).css("pointer", "auto");
                     return;
                 }
-                addScript("https://game.fund/js/jquery.qrcode.min.js");
+                addScript("./js/jquery.qrcode.min.js");
                 get_invitationCode(data.user)
                 event.stopPropagation();
             })
@@ -820,7 +820,7 @@ $(function(){
             
             // $('script[src*="jquery.sequence-min.js"]').attr('src',$('script[src*="jquery.sequence-min.js"]').attr('src') + '&' + new Date().getTime());
         });  
-        addScript("https://game.fund/js/userlogin.js");
+        addScript("./js/userlogin.js");
     }
 
     //生成邀请码请求返回的不同的状态

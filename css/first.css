@@ -1,0 +1,651 @@
+/* 2. abstract
+-------------- */
+    .home-abstract {
+        background-image: url(../img/abstract/bg01.png);
+        background-size: 100% 100%;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        height: 49.5vw;
+    }
+    .home-abstract .abstract-container{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/abstract/Abstract_Header.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .home-abstract .abstract-content{
+        width: 90%;
+        margin: auto;
+        position: relative;
+        top: 40%;
+    }
+    .home-abstract .abstract-content .abstract-content-text{
+        color: #fcf5f5;
+        font-size: 2.4rem;
+        margin-bottom: 2.5rem;
+    }
+    .home-abstract .abstract-content .abstract-content-text > span{
+        font-style: italic;
+        color: #000;
+        font-weight: bolder;
+    }
+    
+/* 2. feature
+-------------- */
+    .home-feature {
+        width: 100%;
+        position: relative;
+        height: 49.5vw;
+        background-color: #191B1A;
+    }
+    .home-feature .feature-title{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 12.5%;
+        background-color: #EB1C24;
+    }
+    .home-feature .feature-container{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/feature/Features_Header.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .home-feature .feature-content{
+        position: relative;
+        top: 12.5%;
+        width: 90%;
+        margin: 1rem auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .home-feature .feature-content > div{
+        width: 48%;
+    }
+    .home-feature .feature-content > div > .feature-content-item{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .home-feature .feature-content-item .feature-item-img{
+        width: 20%;
+    }
+    .home-feature .feature-content-item .feature-item-text{
+        width: 75%;
+    }
+    .home-feature .feature-content-item .feature-item-img > img{
+        width: 70%;
+        margin: 0 15%;
+    }
+
+    .home-feature .feature-content-item .feature-item-text{
+        color: #fcf5f5;
+        font-size: 2.4rem;
+        margin-bottom: 1rem;
+    }
+    .home-feature .feature-content-item .feature-item-text > span{
+        color: #EB1C24;
+        font-size: 2.4rem;
+    }
+    
+
+/* 3. why blockchain
+-------------- */
+
+    .home-blockchain{
+        background-image: url(../img/why_blockchain/bg.jpg);
+        background-size: 100% 100%;
+        width: 100%;
+        position: relative;
+        height: 49.5vw;
+    }
+    .home-blockchain .blockchain-title{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 12.5%;
+        background-color: #EB1C24;
+    }
+    .home-blockchain .blockchain-container{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/why_blockchain/Why_Blockchain_Header.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .home-blockchain .blockchain-container .blockchain-content{
+        position: relative;
+        top: 12.5%;
+        width: 90%;
+        height: 87.5%;
+        margin: auto;
+    }
+    .home-blockchain .blockchain-content-item{
+        width: 65%;
+        margin: 2rem;
+        margin-left: 35%;
+    }
+    .home-blockchain .blockchain-content-item .blockchain-item-title{
+        font-size: 2.5rem;
+        font-style: italic;
+        margin-bottom: 1rem;
+        color: #EB1C24;
+    }
+    .home-blockchain .blockchain-content-item:nth-child(2) .blockchain-item-title{
+            white-space: nowrap;
+    }
+    .home-blockchain .blockchain-content-item .blockchain-item-text{
+        font-size: 1.8rem;
+        color: #eaeaea;
+    }
+    @media only screen and (max-width: 1268px){
+        .home-blockchain .blockchain-content-item:nth-child(2) .blockchain-item-title{
+            white-space: inherit;
+        }
+    }
+
+/* 4.competitive
+-------------- */
+    .home-advantage{
+        background-color: #191B1A;
+        width: 100%;
+        position: relative;
+        height: 49.5vw;
+    }
+    .home-advantage .advantage-title{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 12.5%;
+        background-color: #EB1C24;
+    }
+    .home-advantage .advance-particle{
+        position: absolute; 
+        width: 100%;
+        z-index: 0;
+    }
+    .home-advantage .advantage-title-img{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/competitive/Competitive_Advantage_Header.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .home-advantage .advantage-container {
+        background-image: url(../img/competitive/Competitive_Advantage_Graphic.png);
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100%;
+    }
+    .home-advantage .advantage-container .background-img{
+        position: relative;
+        top: 22%;
+        width: 84%;
+        height: 66%;
+        margin: auto;
+    }
+    .home-advantage .advantage-container .background-img .competitive-content{
+        width: 100%;
+        height: 100%;
+    }
+    .home-advantage .advantage-container .background-img .competitive-content .item-content{
+        width: 28%;
+        height: 28%;
+        position: relative;
+        padding: 0.5rem;
+    }
+    .home-advantage .advantage-container .background-img .competitive-content .item-content .item-title{
+        color: #EB1C24;
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        white-space: nowrap;
+    }
+    .home-advantage .advantage-container .background-img .competitive-content .item-content .item-text{
+        color: #d3d3d3;
+        font-size: 1.2rem;
+        height: 80%;
+        display: flex;
+        align-items: center;
+    }
+    .home-advantage .advantage-container .background-img .competitive-content .item-content .item-text span{
+        color: #feb201;
+    }
+    .home-advantage .advantage-container .background-img .competitive-content .first-content{      
+        top: 0%;
+        left: 5%;
+    }    
+    .home-advantage .advantage-container .background-img .competitive-content .fourth-content{
+        top: -21.5%;        
+        left: 0.8%;
+    }
+    .home-advantage .advantage-container .background-img .competitive-content .third-content{
+        top: 41.5%;
+        left: 5%;
+    }
+    .home-advantage .advantage-container .background-img .competitive-content .sixth-content{
+        top: -84.5%;
+        float: right;
+        right: -23.5%;
+    }
+    .home-advantage .advantage-container .background-img .competitive-content .second-content{
+        top: 6.5%;
+        float: right;
+        right: 0.5%;
+    }
+    .home-advantage .advantage-container .background-img .competitive-content .fifth-content{
+        top: -14.5%;
+        float: right;
+        right: 4.5%;
+    }
+    .home-advantage .advantage-container .background-img .competitive-content .sixth-content .item-title,
+    .home-advantage .advantage-container .background-img .competitive-content .second-content .item-title,
+    .home-advantage .advantage-container .background-img .competitive-content .fifth-content .item-title{
+        position: relative;
+        right: 22%;
+        top: 2%;
+    }
+
+
+
+/* 5. Games
+-------------- */
+    .home-games {
+	    background: #fff;
+        background-size: 100% 100%;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    .home-games .games-title{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 6vw;
+        background-color: #EB1C24;
+    }
+    .home-games .games-title-img{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/product/Previous_Games_Header.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .home-games .price-item{
+        float: left;      
+    }
+    .home-games .price-item div{
+        font-size: 16px;
+        font-weight: bold;
+        color: #2e2e2e;
+        margin-top: 8px;
+    }
+
+    .home-games .games-content{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 10vw;
+    }
+
+    @media only screen and (max-width: 1268px){
+        .home-games {
+            height: initial;
+            background-size: 100%;
+        }
+        .home-games{
+            height: initial;
+            background-size: 100%;
+        } 
+    }
+    @media only screen and (min-width: 468px) {
+         .home-games .price-item{
+            float: left;
+            width: 270px;
+            height: 250px;
+        }
+    }
+    @media only screen and (max-width: 468px){
+        .home-games .price-item{
+            padding-bottom: 30px;
+        }
+    }
+    .home-games .price-item .img-background{
+        height: 107%;
+        position: relative;
+        top: -213px;
+        background-color:rgba(0, 0, 0, 0.5);
+    }
+
+
+/* 6. Team
+-------------- */
+    .home-team {
+        background: #383838;
+	    display: block;
+        width: 100%;
+        position: relative;
+	    text-align: center;
+    }
+    .home-team .team-title{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 6vw;
+        background-color: #EB1C24;
+    }
+    .home-team .team-title-img{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/person/Team_Header.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .home-team .team-content{
+        position: relative;
+        margin-top: 10vw;
+    }
+
+    .home-team .team-item-content{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+    .home-team .consultant-team .team-item-content{
+        width: 25%;
+    }
+    .home-team .big-team-container .big-team-item{
+        width: 10%;
+        margin: 3rem 0;
+    }
+    .home-team .big-team-container .big-team-item p{
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+    .home-team .big-team-container .big-team-item p:first-child{
+        color: #fff;
+        font-size: 1.6rem;
+    }
+    .home-team .big-team-container .big-team-item .team-item-img-linkedin{
+        margin: auto;
+        width: 2rem;
+        height: 2rem;
+        background-color: #034EA2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: #fff;
+    }
+
+    @media only screen and (max-width: 1268px){
+        .home-team .team-item-content{
+            width: 33.3%;
+        }
+
+        .home-team .big-team-container .big-team-item{
+            width: 12.5%;
+            margin: 3rem 0;
+        }
+    }
+    @media only screen and (max-width: 992px){
+        .home-team .team-item-content{
+            width: 50%;
+        }
+        .home-team .big-team-container .big-team-item{
+            width: 20%;
+            margin: 3rem 0;
+        }
+    }
+    @media only screen and (max-width: 598px){
+        .home-team .team-item-content{
+            width: 100%;
+        }
+        .home-team .big-team-container .big-team-item{
+            width: 33.3%;
+            margin: 3rem 0;
+        }
+    }
+    .home-team .team-item{
+        width: 290px;
+        height: inherit;
+    }
+
+    .home-team .team .name{
+        color: #fff;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .home-team .team-item .team-member .team-item-img-linkedin{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding: 0;
+        margin: 0;
+        width: 2rem;
+        height: 2rem;
+        background-color: #034EA2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    .team-member .team-item-img-linkedin i{
+        font-size: 1.2rem;
+        color: #fff;
+    }
+    .home-team .team-item .team-member p{
+        /*padding: 10px;*/
+        color: #c0c0c0;
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .home-team .team-item .team-member .name{
+        font-size: 1.6rem;
+        color: #fff;
+        margin-top: 10px;
+    }
+    .home-team .team-item .team-member .member{
+        background-size: 100% 100%;
+        width: 110px;
+        height: 110px;
+        background-position-y: 0%;
+    }
+
+    .home-team .investment-institution{
+        display: flex; 
+        justify-content: space-around;
+        min-height: 100px;
+        margin: 0 20px 80px;
+    }
+    .home-team .investment-institution .institution-item{
+        width: 19%;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-team .investment-institution .institution-item div img{
+        width: 100%;
+        max-width: 360px;
+    }
+    .home-team  .team-small-title{
+        margin: 5rem 0 2rem;
+        font-size: 2rem;
+        font-style: italic;
+        font-weight: bold;
+        color: #fff;
+        text-align: left;
+        color: #EB1C24;
+    }
+
+     @media only screen and (max-width: 768px){
+        .home-team .investment-institution{
+            display: block; 
+            margin: 0 20px 40px;
+        }
+        .home-team .investment-institution .institution-item{
+            width: 80%;
+            margin: 20px auto;
+        }
+    }
+
+/* 7. allocation
+-------------- */
+    .home-allocation {
+        width: 100%;
+        position: relative;
+        height: 48.5vw;
+        background-image: url(../img/allocation/Background.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .home-allocation .allocation-title{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 12.5%;
+        background-color: #EB1C24;
+    }
+    .home-allocation .allocation-container{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/allocation/Fund_Allocation_Header.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .home-allocation .allocation-content{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/allocation/Fund_Allocation_Text.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .home-allocation .allocation-content-graphic{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/allocation/Fund_Allocation_Graphic.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+/* 7. roadmap
+-------------- */
+    .home-roadmap {
+        width: 100%;
+        position: relative;
+        height: 33.5vw;
+        background-color: #383838;
+    }
+    .home-roadmap .roadmap-title{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 6vw;
+        background-color: #EB1C24;
+    }
+    .home-roadmap .roadmap-container{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/roadmap/Roadmap_Header.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .home-roadmap .roadmap-content{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/roadmap/Roadmap_Graphic.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+/* 9. Contact
+-------------- */
+    .home-footer {
+        background-image: url(../img/contact/bg01.png);
+        background-size: 100% 100%;
+        position: relative;
+        height: 18vw;
+    }
+    .home-footer .home-footer-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        width: 80%;
+        margin: auto;
+    }
+    .home-footer .home-footer-container .content-left{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .home-footer .home-footer-container .content-right{
+        width: 40%;
+    }
+    .home-footer .home-footer-container .content-left .footer-logo-container{
+        width: 76%;
+        height: 100%;
+    }
+    .home-footer .home-footer-container .content-left .footer-logo-container > a{
+        padding-top: 49.5%;
+        display: block;
+        width: 100%;
+        background-image: url(../img/contact/GCC_Logo.png);
+        background-size: 200%;
+        background-position: 20% center;
+        background-repeat: no-repeat;
+    }
+    .home-footer .home-footer-container .content-right .contact-we{
+        margin: 2rem 0;
+        font-size: 1.6rem;
+        font-weight: bold;
+        font-style: italic;
+        color: #EB1C24;
+    }
+    .contact-item{
+            line-height: 180%;
+    }
+    .contact-item > span{
+        color: #b6b6b6;
+        margin-right: 0.5rem;
+    }
+    .contact-item > a{
+        color: #B71C22;
+    }
+    

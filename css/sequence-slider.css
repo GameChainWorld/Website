@@ -6,7 +6,7 @@
   background-position: 50% 100%;
   color: white;
   font-size: 0.625em;
-  margin: 14vw 13vw;
+  margin: 13vw;
   width: 40vw;
   min-width: 447px;
   position: relative;
@@ -332,8 +332,8 @@ h3 {
 
 #sequence .load-pdf-content{
     position: relative;
-    left: 0;
-    top: 10%;
+    left: 5rem;
+    top: -5rem;
 }
 #sequence .load-pdf-content .button-load-white {
   flex: 40%;
@@ -369,19 +369,14 @@ h3 {
     font-weight: 500;
     display: block;
 }
-#top-slider .slider-button .slider-href-item2, 
-#top-slider .slider-button .slider-href-item3,
-#sequence .load-pdf-content .slider-href-item2, 
-#sequence .load-pdf-content .slider-href-item3{
+
+#sequence .load-pdf-content .slider-href-item{
     background: none;
     text-align: left;
     line-height: 28px;
     padding-top: 10px;
 }
-#top-slider .slider-button .slider-href-item2 span, 
-#top-slider .slider-button .slider-href-item3 span,
-#sequence .load-pdf-content .slider-href-item2 span, 
-#sequence .load-pdf-content .slider-href-item3 span{
+#sequence .load-pdf-content .slider-href-item2 span{
   font-size: 15px;
 }
 
@@ -423,4 +418,29 @@ h3 {
         left: 10px;
         font-size: 2.5em;
     }
+}
+
+#sequence .load-pdf-content .slider-href-item{
+    line-height: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+#sequence .load-pdf-content .slider-href-item > div{
+    width: 15%;
+}
+#sequence .load-pdf-content .slider-href-item > div > img{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+#sequence .load-pdf-content .slider-href-item > span{
+    width: 75%;
+    color: #EB1C24;
+    font-size: 1.6rem;
 }
