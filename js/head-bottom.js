@@ -82,6 +82,14 @@ var bottomText =
                     '<a class="contact-right-text" href="https://github.com/GameChainWorld" target="_blank">https://github.com/GameChainWorld</a>' +
                 '</div>' +
                 '<div class="contact-item">' +
+                    '<span id="contact_linkedin">LINKEDIN</span>' +
+                    '<a class="contact-right-text" href="https://www.linkedin.com/company/gamechain" target="_blank">https://www.linkedin.com/company/gamechain</a>' +
+                '</div>' +
+                '<div class="contact-item">' +
+                    '<span id="contact_medium">MEDIUM</span>' +
+                    '<a class="contact-right-text" href="https://medium.com/@gamechainworld" target="_blank">https://medium.com/@gamechainworld</a>' +
+                '</div>' +
+                '<div class="contact-item">' +
                     '<span id="contact_mail">EMAIL</span>' +
                     '<a class="contact-right-text" href="mailto:info@gamechain.world" target="_blank">info@gamechain.world</a>' +
                 '</div>' +

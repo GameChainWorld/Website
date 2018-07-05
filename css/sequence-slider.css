@@ -360,7 +360,7 @@ h3 {
 #sequence .load-pdf-content .button-find-detail{
     background: url(../img/slider/007.png) no-repeat;
     background-size: 100% 100%;
-    width: 280px;
+    width: 25rem;
     color: #fff;
     height: 38px;
     line-height: 38px;
@@ -431,12 +431,10 @@ h3 {
     padding: 0;
 }
 #sequence .load-pdf-content .slider-href-item > div{
-    width: 15%;
+    width: 12%;
 }
 #sequence .load-pdf-content .slider-href-item > div > img{
     width: 100%;
-    background-color: #fff;
-    border-radius: 50%;
 }
 
 #sequence .load-pdf-content .slider-href-item > span{
